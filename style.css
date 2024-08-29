@@ -1,0 +1,193 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    font-size:20px;
+    color: white;
+}
+
+h1 {
+    font-size:40px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+nav {
+    margin: -8px -8px 0 -8px;
+    background: linear-gradient(to right ,rgb(255,0,0) , rgb(255,255,0));
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+}
+
+nav::before {
+    content: url("https://learn.logikaschool.com/uploads/student/2977340/66c730195348f.png");
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 10%;
+    transition: 0.5s ease-out;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    border: 3px solid #FF8A00;
+    transition: 0.5s ease-in;
+}
+
+.pro_nas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.knopki{
+    display: flex;
+    justify-content: space-between;
+}
+
+.knopki a{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    font-size:24px;
+}
+
+.knopki a:first-child{
+    width: 80px;
+    padding: 12px 50px;
+    background: linear-gradient(90deg, #FF0000 0%, #FF8A00 100%);
+}
+
+.knopki a:last-child{
+    width: 80px;
+    padding: 12px 50px;
+    background: linear-gradient(90deg, #FF8A00 0%, #FFE600 100%);
+}
+
+article{
+    width: 400px;
+}
+
+.menu{
+    width: 100%;
+    height: 1400px;
+    transition: 2s linear;
+}
+
+.pizza1 {
+    position: relative;
+    top: 0;
+    left: -200px;
+    z-index: 1;
+    width: 600px;
+    height: auto;
+}
+
+.pizza1_inf {
+    position: relative;
+    left: 50%;
+    top: -500px;
+    width: 200px;
+    z-index: 3;
+}
+
+.pizza2 {
+    position: relative;
+    top: -350px;
+    left: -120px;
+    border-radius: 200px;
+    z-index: 2;
+    width: 600px;
+    height: auto;
+}
+
+.pizza2_inf {
+    position: relative;
+    top: -800px;
+    left: 50%;
+    width: 200px;
+    z-index: 3;
+}
+
+.pizza3{
+    position: relative;
+    top: -750px;
+    left: -200px;
+    z-index: 1;
+    width: 600px;
+    height: auto;
+}
+
+.pizza3_inf {
+    position: relative;
+    top: -1150px;
+    left: 50%;
+    width: 200px;
+    z-index: 3;
+}
+
+.pizza4 {
+    position: relative;
+    top: -1150px;
+    left: -250px;
+    z-index: 0;
+    width: 600px;
+    height: auto;
+}
+
+.pizza4_inf {
+    position: relative;
+    top: -1550px;
+    left: 50%;
+    width: 200px;
+    z-index: 3;
+}
+
+.vidguki {
+    background: linear-gradient(to right , red , yellow);
+    margin: 0 -8px -8px;
+}
+
+.foto {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+
+footer {
+    background: linear-gradient(to right, red, yellow);
+    margin: 0 -8px -20px -8px;
+}
+
+.con {
+    width: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+}
+
+footer p a {
+    position: relative;
+    left:100px
+}
+
+.vidguki article h2 {
+    text-align: center;
+}
+
+.menu:hover {
+    height: 1500px;
+    transform: scale(1.2);
+    transition: 2s linear;
+    margin-top: 200px;
+}
